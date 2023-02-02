@@ -1,17 +1,17 @@
-# npm init for intiiate new project
+# run npm init to initiate new project
 
-# add file that contins function which will be use for testing intro.js, make sure that yout function works
+# add file intro.js that contains test function sum
 
-# do not forget to export your function from file intro.js like module,exposrt ={sum}
+# add export at intro.js file using module.export ={sum}
 
-# install jest using comand npm i jest, if it was sucesufully installed you will get folder node_models (should be excluded before commit in gitignore)
+# run npm i jest to install Jest,new folder node_models should be created (do not forget to exclude this folder in gitignore file before commit)
 
-# created new file with name (test or spec) which will be contains your test for our test case it is intro.test
+# created new file with name (test or spec) which contains test case for sum function
 
-# to new file intro.test should be import function that we will use for testing, need to use require for this
+# import function sum in created file using 'require' for this
 
-# use test () function as global function with 2 parameters. The second one as callBack function
+# use global function test (). Second parameter callBack function
 
 # use expect () to specify expectetion from your test function with different matchers (toBe and etc)
 
-# in order to run test please use command npm test
+# run npm test to check your tests
