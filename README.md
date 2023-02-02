@@ -1,4 +1,4 @@
-# npm init - для инициализации проекта
+# npm init for intiiate new project
 
 # add file that contins function which will be use for testing intro.js, make sure that yout function works
 
