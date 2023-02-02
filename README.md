@@ -10,8 +10,8 @@
 
 # to new file intro.test should be import function that we will use for testing, need to use require for this
 
-# Use test () function as global function with 2 parameters. The second one as callBack function
+# use test () function as global function with 2 parameters. The second one as callBack function
 
-# Use expect () to specify expectetion from your test function with different matchers (toBe and etc)
+# use expect () to specify expectetion from your test function with different matchers (toBe and etc)
 
-# In order to run test please use command npm test
+# in order to run test please use command npm test
