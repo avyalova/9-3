@@ -12,13 +12,8 @@
 
 # What been cover in this test
 
-> In order to measer test coverage should be install plagin npm install --save-dev babel-plugin-istanbul
-> This plugin will help to create report about test coverage
-> metric code coverage helps to check if the test covers all the code lines and conditions
-> Test coverage only valid for sucess test cases
-> I have 100% test coverage for my intro.js file
-> brances shows if the all conditiona in code covered
-> Lines if all the line in code covers
-> Function -function coverage
-> Statements - average of 3 above
-> If there are some uncovered lines will see those in Uncovered Lines with number of lines
+- Покрытие функций: сколько объявленных функций было вызвано.
+- Покрытие операторов: какая доля содержащихся в программе операторов была выполнена.
+- Покрытие веток: сколько выполнено веток контрольной структуры (например, операторов if).
+- Покрытие условий: какая доля логических подвыражений была протестирована на истинные и ложные значения.
+- Покрытие строк: сколько строк исходного кода протестировано.
