@@ -31,19 +31,19 @@ function theBest(students) {
   bestStudentsNames = []
 
   students.forEach((element) => {
-    console.log("Elemnt score is - " + element.score)
+    // console.log("Elemnt score is - " + element.score)
     if (element.score > max) {
       max = element.score
       bestDate = new Date(element.date)
       bestStudentsNames = []
       bestStudentsNames.push(element.name)
-      console.log(bestStudentsNames)
+      // console.log(bestStudentsNames)
     } else if (element.score == max) {
       if (new Date(element.date) < bestDate) {
         bestDate = new Date(element.date)
         bestStudentsNames = []
         bestStudentsNames.push(element.name)
-        console.log(bestStudentsNames)
+        //console.log(bestStudentsNames)
       }
     }
   })
